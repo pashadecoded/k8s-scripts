@@ -4,7 +4,7 @@
 today=Logs@$(date +"%F#%T")
 
 # Get the namespace name
-namespace=zenith
+namespace=<K8s Namespace>
 
 # Create a directory to store the logs with the current date
 mkdir -p $today
